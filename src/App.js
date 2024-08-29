@@ -10,6 +10,49 @@ import Homepage from './components/Homepage/Homepage';
 import SignUp from './components/Signup/Signup'
 import User from './components/User/User';
 
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: (
+      <>
+        <Navbar />
+        <Homepage />
+        <Footer />
+      </>
+    ),
+  },
+  {
+    path: "/login",
+    element: (
+      <>
+        <Navbar />
+        <Login />
+        <Footer />
+      </>
+    ),
+  },
+  {
+    path: "/signup",
+    element: (
+      <>
+        <Navbar />
+        <SignUp />
+        <Footer />
+      </>
+    ),
+  },
+  {
+    path: "/user",
+    element: (
+      <>
+        <Navbar />
+        <User />
+        <Footer />
+      </>
+    ),
+  },
+]);
+
 function App() {
   return (
     <div className="App">
