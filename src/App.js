@@ -6,7 +6,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 import Navbar from './components/Navbar/Navbar';
 import Footer from './components/Footer/Footer';
 import Homepage from './components/Homepage/Homepage';
-//import Login from './components/Login/Login';
+import Login from './components/Login/Login';
 import SignUp from './components/Signup/Signup'
 
 function App() {
