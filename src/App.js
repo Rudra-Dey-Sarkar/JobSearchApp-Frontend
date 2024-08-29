@@ -8,7 +8,7 @@ import Footer from './components/Footer/Footer';
 import Login from './components/Login/Login';
 import SignUp from './components/Signup/Signup'
 import User from './components/User/User';
-import { PlatformProvider } from './components/Global Data/PlatformContext';
+//import { PlatformProvider } from './components/Global Data/PlatformContext';
 
 // const router = createBrowserRouter([
 //   {
