@@ -12,7 +12,7 @@ function Login() {
   const {userData, setUserData} = useContext(PlatformContext);
 
  function Submit() {
-    event.preventDefault();
+  //  event.preventDefault();
     axios.post("https://job-search-app-backend.vercel.app/getdata", {
       id:id,
       password:password
