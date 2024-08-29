@@ -55,11 +55,11 @@ import User from './components/User/User';
 
 function App() {
   return (
-    <PlatformProvider>
+  {/*  <PlatformProvider> */}
     <div className="App">
     {/* <RouterProvider router={router} /> */}
     </div>
-    </PlatformProvider>
+   {/*  </PlatformProvider> */}
   );
 }
 
