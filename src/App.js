@@ -1,7 +1,7 @@
 import React from 'react';
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { PlatformProvider } from './components/Global Data/PlatformContext';
-
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
