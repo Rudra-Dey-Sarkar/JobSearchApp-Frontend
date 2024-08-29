@@ -21,6 +21,16 @@ const router = createBrowserRouter([
       </>
     ),
   },
+  //  {
+  //   path: "/login",
+  //   element: (
+  //     <>
+  //       <Navbar />
+  //       <Login />
+  //       <Footer />
+  //     </>
+  //   ),
+  // },
   {
     path: "/signup",
     element: (
